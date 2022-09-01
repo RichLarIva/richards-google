@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#logo-holder{
+    width:25vw;
+    margin-top:1.2em;
+    margin-left:7.2em;
+}
+
+.main-content{
+    margin-top:2.5em;
+    margin-left:7.2em;
+}
+
+#logo{
+    width:45%;
+}
+
+#searchbutton{
+    width:23px;
+}
+
+#search{
+    width: 265px;
+}
+
+.result{
+    height:8vh;
+}
+
+#userinfo{
+    width:200px;
+    position: absolute;
+    right:0;
+    top:0;
+}
+
+#user{
+    border-radius: 30% 65% 25% 78% / 49% 21% 92% 49%;
+    width:64px;
+    height:64px;
+}
+
+time::before{
+    content: '(';
+}
+
+time::after{
+    content:')';
+}
